@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    width :100%;
+    
+}
+
+body {
+    width:100vh;
+    height: 100%;
+    background-color: #43494f;
+    color: rgb(107, 159, 135);
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: right;
+    padding: 0 12px;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    transform:translateY(-20px);
+}
+
+
+.brand img {
+    border-radius: 50%;
+    width: 45px;
+    padding: 0 8px;
+    align-items: center;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.herosection {
+    margin-left: 120px;
+    height: 45rem;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up {
+
+    width: 80%;
+}
+
+.down {
+    width: 45%;
+    
+}
+
+hr{
+    width: px;
+}
+.pic img{
+    width: 350px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+    margin-top: 35px;
+}
+
+.red
+{
+color: red;
+}
+
+.font1{
+    color:antiquewhite; 
+    font-size: 20px;
+    
+}
+
+.font2{
+    color:antiquewhite; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.up .font3:hover{
+    transform: translatey(20px);
+
+}
+
+.up .font3{
+    font-family: Arial;
+    font-size: 50px;
+    background: linear-gradient(135deg, #ff00d2,#fed90f,#00a2ff,#09f1b8,#ff00d2,#fed90f,#00a2ff);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: Frontend Developer 10s ease-in-out infinite; 
+}
+@keyframes FrontendDeveloper  {
+    to {
+     background-position:0% 50%
+    }  
+}
+ 
+.btn{
+    width: 180px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+    display: inline-block;
+    background: rgb(22, 21, 21);
+    color: rgb(35, 150, 161);;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(35, 150, 161);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    box-shadow: #00a2ff;
+}
+
+.btn:hover{
+    background-color:yellowgreen;
+    transform:translateY(-20px);
+    transition:1s;
+
+}
+
+
+.find{
+    margin-left: 5px;
+    width:auto;
+    height:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-media ul{
+    width: 160px;
+    height: 80px;
+    display: flex;
+    list-style-type: none;
+}
+
+.social-media ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.social-media ul li a{
+    padding-left: 5px;
+    width: 90px;
+    height: 90px;
+    color: white;
+    text-decoration: none;
+    box-shadow: rgb(203, 145, 70);
+}
+
+
+.skills{
+     width: 150%;
+    height: 100%;
+    margin: 70px;
+   justify-content: center;
+
+    
+}
+
+.title .font1{
+    margin: 30px auto;
+    color:antiquewhite;
+    
+}
+
+.title .font2{
+    font-size: 60px;
+    color:antiquewhite;
+    
+}
+
+
+.box1{
+    margin-top: 90px;
+    padding-left: 40px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: #212529;
+    margin-left: 30px;
+    width: 110%;
+}
+
+.cardsk{
+        height: 300px;
+        width: 280px;
+        padding:5px ;
+        background-color:rgb(35, 34, 34) ;
+        border-radius:10% ;
+        margin: 15px;
+        position:relative ;
+        text-align: center;
+}
+
+.cardsk:hover{
+
+    transform: translatey(20px);
+     box-shadow: 0  5px 10px rgba(11, 157, 205, 0.5);
+ }
+  
+
+.cardsk img{
+    padding-top: 15px;
+    width: 80%;
+    height:50% ;
+    border-radius: 10px;
+
+}
+
+
+.myportfolio{
+    padding: 40 px 0;
+    width: 80%;
+    margin: 70px;
+   justify-content: center;
+
+}
+
+.porttitle h1.font2{
+    margin: 30px auto;
+    font-size: 60px;
+    color:antiquewhite;
+
+}
+
+.porttitle .font1{
+
+    color:antiquewhite;
+
+}
+
+
+.box{
+    margin-top: 90px;
+    width:100%;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #212529;
+    justify-content: space-evenly; 
+    position: relative;
+
+}
+
+.card{
+    height: 150px;
+    width: 700px;
+    padding:15px ;
+    background-color:rgb(35, 34, 34) ;
+    margin: 15px;
+    position:relative ;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+
+}
+
+.card img{
+    padding-top: 10px;
+    width: 60%;
+    height:90% ;
+}
+
+.card:hover{
+    transform: translatex(20px);
+    transition: 1s;
+    box-shadow: 0  5px 10px rgba(11, 157, 205, 0.5);
+}
+
+.spi{
+    width: 90%; 
+    margin-left: 40px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.box3{
+    display: inline;
+    margin-left: 450px;
+    position: relative;
+    padding-right: 10px;
+    margin-top: -5px;
+    }
+
+.box3 .font5{
+
+    margin: 30px auto;
+    width: 1130px;
+    font-size: 60px;
+    color:antiquewhite;
+    
+ }
+
+ .box3 .font4{
+    margin: 30px auto;
+    color:antiquewhite;
+}
+
+.education .f2{
+    margin: 30px auto;
+    color:antiquewhite;
+
+}
+
+.education .f5{
+    margin: 30px auto;
+    width: 1130px;
+    font-size: 60px;
+    color:antiquewhite; 
+}
+
+.education{
+    text-align: center;
+}
+
+.textbox{
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.checkpoint{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width: 32em;
+    position: relative;
+}
+
+.checkpoint .b1{
+    border: 2px solid #888;
+    padding: 1.5em;
+}
+
+
+    
+.detalis{
+   width:60%;
+   height: 580px;
+   display:inline-block;
+   background-color:#16181c;
+   box-shadow: 2px 2px 10px rgb(26, 154, 208)  ;
+   margin-left: 50px;
+   z-index: -1;
+   border-radius:20px; 
+   
+ }
+
+
+.details:hover{
+    
+        background-color:rgba(0, 89, 119, 0.2);
+        transform:translateY(-20px);
+        transition:1s;
+}
+    
+.contacts{
+    padding: 40 px 0;
+    width: 170%;
+    margin-left: 70px;
+   justify-content: center;
+
+}
+
+
+.inform{
+    width:60%;
+    padding: 10px;
+    position: center;
+}
+button{
+    border: 3px solid rgb(0, 0, 0);
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#ac2830;
+    transform:translateY(-20px);
+    transition:1s;
+}
+
+.resume{
+    position: relative;
+    max-width:100%;
+
+}
+
+.education{
+    padding: 10px 50px;
+    position:relative;
+    width:50%
+
+}
